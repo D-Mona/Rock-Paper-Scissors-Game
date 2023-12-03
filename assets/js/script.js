@@ -50,3 +50,26 @@ function newGameDisplay() {
   computerTurnBtn.hidden = true;
   tryAgainBtn.hidden = true;
 }
+
+// Listener for the enter name button.
+enterNameBtn.addEventListener("click", setPlayerName);
+
+/**
+ *  Sets the players name to their input, must not be blank,
+ * or more than 10 letters.
+ */
+function setPlayerName() {
+  const max = 10;
+  // Prompt for the user to enter their name.
+  const sign = window.prompt(
+    "Enter your name",
+    "Name no longer than 10 letters or blank."
+  );
+  // Name cannot be blank or more than ten characters.
+  if (sign.length > max || sign.length === 0) {
+    alert("Max 10 characters - Name cannot be empty.");
+  } else {
+    playerName.textContent = sign + ": ";
+    versusDisplay();
+  }
+}
