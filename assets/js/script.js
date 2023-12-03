@@ -228,3 +228,25 @@ function roundWinnerDisplay() {
 
   updateScores(winner);
 }
+
+/** Updates the winning players score.*/
+function updateScores(winner) {
+  const roundWinner = winner;
+  const oldPlayerScore = playerScore.textContent;
+  const oldComputerScore = computerScore.textContent;
+  let newPlayerScore;
+  let newComputerScore;
+
+  // Checks old score and adds 1 to it.
+  if (roundWinner === "player") {
+    newPlayerScore = parseInt(oldPlayerScore);
+    newPlayerScore = newPlayerScore + 1;
+    playerScore.textContent = newPlayerScore;
+  } else if (roundWinner === "computer") {
+    newComputerScore = parseInt(oldComputerScore);
+    newComputerScore = newComputerScore + 1;
+    computerScore.textContent = newComputerScore;
+  }
+
+  checkGameWinner();
+}
