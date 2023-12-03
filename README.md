@@ -81,3 +81,54 @@ First to a score of 3 wins the game.
 
 ### **Unfixed bugs**
 - None.
+
+### **Target Audiences**
+
+- From kids to grannies and grandads.
+
+### **User Stories**
+
+- As a user, I want to play the game easily and intuitively.
+- As a user, I want to be entertained.
+- As a user, I want to feel a good vibe.
+- As a user, I want the possibility to win.
+
+### Design 
+
+- I drew some images on paper for the layout and then implemented those ideas.
+- I chose a nice bright colourful vibe to the game.
+- I chose a uniformed look and simple interface.
+- I chose to have various elements display or hide depending on the requirements and I used flexbox for a nice uniformed dynamic look.
+- Below is a look at all of the elements the game contains, excluding all of the images.
+
+![All game elements](assets/images/AllElements.jpg)
+
+### Media
+
+- The images in the game were taken from https://www.freepik.com/.
+- References to their authors are below.
+
+<a href="https://www.freepik.com/free-vector/pile-stones-white-background_20498797.htm#query=cartoon%20rock&position=3&from_view=search&track=ais">Image by brgfx</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/torn-paper-piece-design-background-vector_24611015.htm#query=cartoon%20paper&position=8&from_view=search&track=ais">Image by Creative_hat</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/scissors-realistic_3056602.htm#query=cartoon%20scissors&position=4&from_view=search&track=ais">Image by katemangostar</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/boy-using-computer_4606803.htm#query=computer%20cartoon&position=2&from_view=search&track=ais">Image by brgfx</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/cute-happy-laptop-floating-cartoon-vector-icon-illustration-technology-object-concept-isolated-flat_48114013.htm#query=computer%20cartoon&position=4&from_view=search&track=ais">Image by catalyststuff</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/comic-style-question-mark-speech-bubble-background_7082687.htm#query=question%20mark%20cartoon&position=8&from_view=search&track=ais">Image by starline</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/versus-vs-letters-fight-flat-comics-style-design-with-halftone-lightning_13466740.htm#query=vs%20cartoon&position=1&from_view=search&track=ais">Image by jcomp</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/katana-sword-cartoon-vector-icon-illustration-ninja-object-icon-concept-isolated-flat-vector_57146113.htm#query=2%20swords%20cartoon&position=12&from_view=search&track=ais">Image by catalyststuff</a> on Freepik
+
+### Tech
+
+- HTML
+- CSS & Flexbox
+- Javascript
+
+- I used VSCode for the project creation, with the Prettier extension for the formatting.
+- I used https://imageresizer.com/ for the resizing of the images.
