@@ -116,3 +116,19 @@ function playerTurnDisplay() {
   // Displays a "choose" message to the player in the lower display.
   lowerDisplay.textContent = "Choose !";
 }
+
+// Listeners for the rock-paper-scissors buttons.
+// Sets the value of the playerChoice variable when clicked.
+rockBtn.addEventListener("click", function () {
+  playerChoice = "rock";
+  playerTurnTakenDisplay();
+});
+paperBtn.addEventListener("click", function () {
+  playerChoice = "paper";
+  playerTurnTakenDisplay();
+});
+scissorsBtn.addEventListener("click", function () {
+  playerChoice = "scissors";
+  playerTurnTakenDisplay();
+});
+
