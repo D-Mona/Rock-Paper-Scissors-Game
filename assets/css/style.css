@@ -2,216 +2,215 @@
 
 /* Default element stylings */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(
-      90deg,
-      rgba(18, 8, 201, 1) 0%,
-      rgb(13, 33, 122) 100%
-    );
-    color: white;
-    font-family: "Sedgwick Ave Display", cursive;
-  }
-  
-  h1 {
-    font-size: 2rem;
-    text-align: center;
-  }
-  
-  h1 a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  h1 a:hover {
-    color: green;
-  }
-  
-  footer {
-    margin-top: auto;
-    text-align: center;
-    font-size: 1rem;
-    color: black;
-  }
-  
-  button {
-    font-family: "Sedgwick Ave Display", cursive;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: bold;
-    text-align: center;
-    border: 1.5px solid black;
-    padding: 1rem;
-    background-color: gold;
-    border-radius: 6px;
-    box-shadow: 5px 5px 10px 0px black;
-    color: black;
-  }
-  
-  button:hover {
-    background-color: green;
-    color: white;
-  }
-  
-  img {
-    width: 100px;
-    height: 150px;
-    padding: 4px;
-    background-color: red;
-  }
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    90deg,
+    rgba(18, 8, 201, 1) 0%,
+    rgb(13, 33, 122) 100%
+  );
+  color: white;
+  font-family: "Sedgwick Ave Display", cursive;
+}
 
-  /* Game start and rounds to win container */
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 a:hover {
+  color: green;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  font-size: 1rem;
+  color: black;
+}
+
+button {
+  font-family: "Sedgwick Ave Display", cursive;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  border: 1.5px solid black;
+  padding: 1rem;
+  background-color: gold;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px 0px black;
+  color: black;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+}
+
+img {
+  width: 100px;
+  height: 150px;
+  padding: 4px;
+  background-color: red;
+}
+
+/* Game start and rounds to win container */
 #name-round-container {
-    text-align: center;
-  }
-  
-  /* Scoreboard container */
-  #score-board-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top: 3rem;
-  }
-  /* Scoreboard and names*/
-  .score-board {
-    font-size: 1.25rem;
-  }
-  
-  /* The upper display*/
-  #upper-display {
-    font-size: 1.25rem;
-    text-align: center;
-  }
-  
-  /* Central images display*/
-  #image-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
-  /* Container for the player choice buttons*/
-  #player-choice-container {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-  
-  /* The lower display*/
-  #lower-display {
-    font-size: 1.25rem;
-    text-align: center;
-  }
-  
-  /* The take turn and try again button container*/
-  #next-button-container {
-    margin-top: 1rem;
-    text-align: center;
-  }
+  text-align: center;
+}
 
-  /* Media queiries */
+/* Scoreboard container */
+#score-board-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+/* Scoreboard and names*/
+.score-board {
+  font-size: 1.25rem;
+}
+
+/* The upper display*/
+#upper-display {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+/* Central images display*/
+#image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Container for the player choice buttons*/
+#player-choice-container {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+/* The lower display*/
+#lower-display {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+/* The take turn and try again button container*/
+#next-button-container {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* Media queiries */
 @media (min-width: 480px) {
-    img {
-      width: 125px;
-      height: 175px;
-      padding: 4px;
-    }
-    h1 {
-      font-size: 2.25rem;
-    }
+  img {
+    width: 125px;
+    height: 175px;
+    padding: 4px;
   }
-  
-  @media (min-width: 540px) {
-    img {
-      width: 150px;
-      height: 200px;
-      padding: 4px;
-    }
-    .score-board {
-      font-size: 1.5rem;
-    }
-    button {
-      font-size: 1.15rem;
-    }
-    #upper-display {
-      font-size: 1.5rem;
-      text-align: center;
-    }
-    #lower-display {
-      font-size: 1.5rem;
-      text-align: center;
-    }
+  h1 {
+    font-size: 2.25rem;
   }
-  
-  @media (min-width: 768px) {
-    img {
-      width: 175px;
-      height: 225px;
-      padding: 4px;
-    }
-  }
-  
-  @media (min-width: 1024px) {
-    img {
-      width: 200px;
-      height: 250px;
-      padding: 4px;
-    }
-    h1 {
-      font-size: 3rem;
-    }
-    button {
-      font-size: 1.25rem;
-    }
-    .score-board {
-      font-size: 1.75rem;
-    }
-  }
-  
-  @media (min-width: 1440px) {
-    img {
-      width: 300px;
-      height: 300px;
-      padding: 4px;
-    }
-    h1 {
-      font-size: 4rem;
-    }
-    button {
-      font-size: 1.5rem;
-    }
-    .score-board {
-      font-size: 2rem;
-    }
-    footer {
-      font-size: 1.5rem;
-    }
-  }
-  
-  @media (min-width: 1920px) {
-    img {
-      width: 300px;
-      height: 300px;
-      padding: 4px;
-    }
-    h1 {
-      font-size: 4rem;
-    }
-    button {
-      font-size: 1.5rem;
-    }
-    #upper-display {
-      font-size: 2rem;
-    }
-    #lower-display {
-      font-size: 2rem;
-    }
-    .score-board {
-      font-size: 2.5rem;
-    }
-    footer {
-      font-size: 1.75rem;
-    }
-  }
-  
+}
 
+@media (min-width: 540px) {
+  img {
+    width: 150px;
+    height: 200px;
+    padding: 4px;
+  }
+  .score-board {
+    font-size: 1.5rem;
+  }
+  button {
+    font-size: 1.15rem;
+  }
+  #upper-display {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  #lower-display {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  img {
+    width: 175px;
+    height: 225px;
+    padding: 4px;
+  }
+}
+
+@media (min-width: 1024px) {
+  img {
+    width: 200px;
+    height: 250px;
+    padding: 4px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  button {
+    font-size: 1.25rem;
+  }
+  .score-board {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  img {
+    width: 300px;
+    height: 300px;
+    padding: 4px;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  button {
+    font-size: 1.5rem;
+  }
+  .score-board {
+    font-size: 2rem;
+  }
+  footer {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  img {
+    width: 300px;
+    height: 300px;
+    padding: 4px;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  button {
+    font-size: 1.5rem;
+  }
+  #upper-display {
+    font-size: 2rem;
+  }
+  #lower-display {
+    font-size: 2rem;
+  }
+  .score-board {
+    font-size: 2.5rem;
+  }
+  footer {
+    font-size: 1.75rem;
+  }
+}
