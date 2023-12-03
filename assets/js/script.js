@@ -172,3 +172,25 @@ function takeComputerTurn() {
     computerChoice = "scissors";
   }
 }
+
+/** Checks the winner of the game from the player and computer choice variables.*/
+function determineRoundWinner() {
+  let winner = "";
+  if (
+    (playerChoice === "rock" && computerChoice === "paper") ||
+    (playerChoice === "paper" && computerChoice === "scissors") ||
+    (playerChoice === "scissors" && computerChoice === "rock")
+  ) {
+    winner = "computer";
+  } else if (
+    (playerChoice === "rock" && computerChoice === "scissors") ||
+    (playerChoice === "paper" && computerChoice === "rock") ||
+    (playerChoice === "scissors" && computerChoice === "paper")
+  ) {
+    winner = "player";
+  } else {
+    winner = "draw";
+  }
+  return winner;
+}
+
