@@ -132,3 +132,26 @@ scissorsBtn.addEventListener("click", function () {
   playerTurnTakenDisplay();
 });
 
+/** Penultimate display.
+ * Checks if the player has chosen rock, paper or scissors.
+ * Displays an image of the players choice.
+ * Displays a "You're Locked In" in a message in the lower display.
+ */
+function playerTurnTakenDisplay() {
+  // Checks the players choice.
+  if (playerChoice === "rock") {
+    secondImage.src = "assets/images/rock-image.jpg";
+    secondImage.setAttribute("alt", "Cartoon image of a rock");
+  } else if (playerChoice === "paper") {
+    secondImage.src = "assets/images/paper-image.jpg";
+    secondImage.setAttribute("alt", "Cartoon image of paper");
+  } else {
+    secondImage.src = "assets/images/scissors-image.jpg";
+    secondImage.setAttribute("alt", "Cartoon image of a scissors");
+  }
+  lowerDisplay.textContent = "You're Locked In With " + playerChoice + " !";
+  // Hides the player choice buttons.
+  playerChoiceContainer.hidden = true;
+  // Shows the computer turn button.
+  computerTurnBtn.hidden = false;
+}
