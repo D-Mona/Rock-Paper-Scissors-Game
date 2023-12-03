@@ -250,3 +250,17 @@ function updateScores(winner) {
 
   checkGameWinner();
 }
+
+/** Checks if either player has won the round by reaching 3,
+ * if so shows the game over display.
+ */
+function checkGameWinner() {
+  //Checks if either the player or the computers are 3.
+  if (playerScore.textContent === "3" || computerScore.textContent === "3") {
+    // Displays game winner in the upper display and
+    // changes the next button to try again.
+    upperDisplay.textContent = "Game Winner !";
+    playerTurnBtn.hidden = true;
+    tryAgainBtn.hidden = false;
+  }
+}
