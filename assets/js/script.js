@@ -155,3 +155,20 @@ function playerTurnTakenDisplay() {
   // Shows the computer turn button.
   computerTurnBtn.hidden = false;
 }
+
+// Listener for the computer turn button.
+computerTurnBtn.addEventListener("click", roundWinnerDisplay);
+
+/** Make a random choice of rock, paper or scissors for the computers turn.
+ * 1 to 3 being Rock to Scissors.
+ */
+function takeComputerTurn() {
+  const ran = Math.floor(Math.random() * 4);
+  if (ran === 1) {
+    computerChoice = "rock";
+  } else if (ran === 2) {
+    computerChoice = "paper";
+  } else {
+    computerChoice = "scissors";
+  }
+}
