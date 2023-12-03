@@ -95,3 +95,24 @@ function versusDisplay() {
   // to continue to the next stage of the game.
   playerTurnBtn.hidden = false;
 }
+
+// Listener for the player turn button.
+playerTurnBtn.addEventListener("click", playerTurnDisplay);
+
+/** Rock-Paper-Scissors buttons are displayed for the player to make their choice.*/
+function playerTurnDisplay() {
+  //Displays a question mark for the players turn.
+  secondImage.src = "assets/images/question-mark-image.jpg";
+  // Hides the first Image(Player).
+  firstImage.hidden = true;
+  // Hides the third image(Computer).
+  thirdImage.hidden = true;
+  // Hides the player turn button.
+  playerTurnBtn.hidden = true;
+  // Shows the player choice buttons(Rock, paper, scissors).
+  playerChoiceContainer.hidden = false;
+  // Hides the upper display.
+  upperDisplay.style.visibility = "hidden";
+  // Displays a "choose" message to the player in the lower display.
+  lowerDisplay.textContent = "Choose !";
+}
