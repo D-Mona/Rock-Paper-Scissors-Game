@@ -194,3 +194,37 @@ function determineRoundWinner() {
   return winner;
 }
 
+/** The final outcome display of the round.
+ * Assigns the winning player image and a winner or draw message.
+ * Displays the computers choice in the lower display.
+ */
+function roundWinnerDisplay() {
+  // Gets the Computers choice.
+  takeComputerTurn();
+  // Gets the winner of the round from both choices.
+  const winner = determineRoundWinner();
+  if (winner === "player") {
+    secondImage.src = "assets/images/player-image.jpg";
+    secondImage.setAttribute("alt", "Cartoon image of a player with glasses");
+    upperDisplay.textContent = "Winner !";
+  } else if (winner === "computer") {
+    secondImage.src = "assets/images/computer-image.jpg";
+    secondImage.setAttribute("alt", "Cartoon image of a computer with a face");
+    upperDisplay.textContent = "Winner !";
+  } else {
+    secondImage.src = "assets/images/draw-image.jpg";
+    secondImage.setAttribute("alt", "Cartoon image of two swords in joust");
+    upperDisplay.textContent = "Draw !";
+  }
+  // Shows the upper display.
+  upperDisplay.style.visibility = "visible";
+  // Displays a message with the computers choice in the lower display.
+  lowerDisplay.textContent = "Computer chose " + computerChoice + " !";
+  // Hides the player choice buttons.
+  playerChoiceContainer.hidden = true;
+  computerTurnBtn.hidden = true;
+  // Shows the try again button to reset the game and try again.
+  playerTurnBtn.hidden = false;
+
+  updateScores(winner);
+}
