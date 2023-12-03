@@ -60,3 +60,51 @@ body {
     padding: 4px;
     background-color: red;
   }
+
+  /* Game start and rounds to win container */
+#name-round-container {
+    text-align: center;
+  }
+  
+  /* Scoreboard container */
+  #score-board-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+  /* Scoreboard and names*/
+  .score-board {
+    font-size: 1.25rem;
+  }
+  
+  /* The upper display*/
+  #upper-display {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  
+  /* Central images display*/
+  #image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  /* Container for the player choice buttons*/
+  #player-choice-container {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  /* The lower display*/
+  #lower-display {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  
+  /* The take turn and try again button container*/
+  #next-button-container {
+    margin-top: 1rem;
+    text-align: center;
+  }
