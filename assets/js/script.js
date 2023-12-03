@@ -264,3 +264,22 @@ function checkGameWinner() {
     tryAgainBtn.hidden = false;
   }
 }
+
+tryAgainBtn.addEventListener("click", resetGame);
+
+/** Retry's the game upon the users request.
+ * Sets both scores to zero and
+ * resumes from the versus display.
+ */
+function resetGame() {
+  playerScore.textContent = "0";
+  computerScore.textContent = "0";
+  // Shows the first Image.
+  firstImage.hidden = false;
+  // Shows the third image.
+  thirdImage.hidden = false;
+  upperDisplay.style.visibility = "hidden";
+  tryAgainBtn.hidden = true;
+
+  versusDisplay();
+}
