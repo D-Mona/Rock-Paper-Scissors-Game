@@ -73,3 +73,25 @@ function setPlayerName() {
     versusDisplay();
   }
 }
+
+/**The pre-game round display.*/
+function versusDisplay() {
+  // Displays the rounds to win in the top button, sets it
+  // green and disables it.
+  enterNameBtn.innerText = "First to 3 Points Wins !";
+  enterNameBtn.style.backgroundColor = "green";
+  enterNameBtn.disabled = "true";
+  // Displays player vs computer images for round start.
+  firstImage.src = "assets/images/player-image.jpg";
+  firstImage.setAttribute("alt", "Cartoon image of a player with glasses");
+  secondImage.src = "assets/images/vs-image.jpg";
+  secondImage.setAttribute("alt", "Cartoon image of versus sign");
+  thirdImage.src = "assets/images/computer-image.jpg";
+  thirdImage.setAttribute("alt", "Cartoon image of a computer with a face");
+  // Shows the lower display and displays a good luck message to the player.
+  lowerDisplay.textContent = "Good Luck !";
+  lowerDisplay.style.visibility = "visible";
+  // Shows the player turn button for the player
+  // to continue to the next stage of the game.
+  playerTurnBtn.hidden = false;
+}
