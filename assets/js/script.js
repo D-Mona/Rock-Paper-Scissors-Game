@@ -25,3 +25,7 @@ const playerName = document.getElementById("player-name");
 const playerScore = document.getElementById("player-score");
 const computerScore = document.getElementById("computer-score");
 
+// Variables for the player and computer choices,
+// to be used in the round decision process.
+let playerChoice = "";
+let computerChoice = "";
