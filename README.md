@@ -93,7 +93,7 @@ First to a score of 3 wins the game.
 - As a user, I want to feel a good vibe.
 - As a user, I want the possibility to win.
 
-### Design 
+### **Design**
 
 - I drew some images on paper for the layout and then implemented those ideas.
 - I chose a nice bright colourful vibe to the game.
@@ -103,7 +103,15 @@ First to a score of 3 wins the game.
 
 ![All game elements](assets/images/AllElements.jpg)
 
-### Media
+### **Testing**
+
+- I tested that the site functions correctly on Firefox, Chrome, and Edge.
+
+- I tested that the project is reponsive on all devices using dev-tools.
+
+- I tested that all of the navigation and game features perform as intended.
+
+### **Media**
 
 - The images in the game were taken from https://www.freepik.com/.
 - References to their authors are below.
@@ -124,7 +132,7 @@ First to a score of 3 wins the game.
 
 <a href="https://www.freepik.com/free-vector/katana-sword-cartoon-vector-icon-illustration-ninja-object-icon-concept-isolated-flat-vector_57146113.htm#query=2%20swords%20cartoon&position=12&from_view=search&track=ais">Image by catalyststuff</a> on Freepik
 
-### Tech
+### **Tech**
 
 - HTML
 - CSS & Flexbox
