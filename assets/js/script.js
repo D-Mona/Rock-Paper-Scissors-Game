@@ -85,7 +85,7 @@ function versusDisplay() {
   firstImage.src = "assets/images/player-image.jpg";
   firstImage.setAttribute("alt", "Cartoon image of a player with glasses");
   secondImage.src = "assets/images/vs-image.jpg";
-  secondImage.setAttribute("alt", "Cartoon image of versus sign");
+  secondImage.setAttribute("alt", "Cartoon image of a versus sign");
   thirdImage.src = "assets/images/computer-image.jpg";
   thirdImage.setAttribute("alt", "Cartoon image of a computer with a face");
   // Shows the lower display and displays a good luck message to the player.
@@ -103,6 +103,7 @@ playerTurnBtn.addEventListener("click", playerTurnDisplay);
 function playerTurnDisplay() {
   //Displays a question mark for the players turn.
   secondImage.src = "assets/images/question-mark-image.jpg";
+  secondImage.setAttribute("alt", "Cartoon image of a question mark");
   // Hides the first Image(Player).
   firstImage.hidden = true;
   // Hides the third image(Computer).
