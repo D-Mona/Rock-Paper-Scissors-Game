@@ -29,3 +29,24 @@ const computerScore = document.getElementById("computer-score");
 // to be used in the round decision process.
 let playerChoice = "";
 let computerChoice = "";
+
+// On Dom Loaded, display the new game display.
+document.addEventListener("DOMContentLoaded", function () {
+  newGameDisplay();
+});
+
+/**
+ * Sets the initial display of the game.
+ */
+function newGameDisplay() {
+  // Hides the upper(Winner/Draw) display, maintaining page layout.
+  upperDisplay.style.visibility = "hidden";
+  // Hides the lower(Game decision) display, maintaining page layout.
+  lowerDisplay.style.visibility = "hidden";
+  // Hides the player choice buttons.
+  playerChoiceContainer.hidden = true;
+  //* Hides the player, computer turn, and try again buttons.
+  playerTurnBtn.hidden = true;
+  computerTurnBtn.hidden = true;
+  tryAgainBtn.hidden = true;
+}
