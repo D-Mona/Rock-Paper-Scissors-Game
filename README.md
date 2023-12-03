@@ -111,6 +111,29 @@ First to a score of 3 wins the game.
 
 - I tested that all of the navigation and game features perform as intended.
 
+### **Validator Testing**
+
+- HTML
+  - No errors were found when passed through the W3C Markup Validation Service.
+
+![HTML Validation](assets/images/htmlValidation.jpg)
+
+- CSS
+  - No errors were found when passed through The W3C CSS Validation Service.
+
+![CSS Validation](assets/images/cssValidation.jpg)
+
+- Javascript
+  - No errors were found when passed through JSHint.
+
+![Javascript Validation](assets/images/JSHint.jpg)
+
+- Performance and Accessibility
+
+- I got the following scores in lighthouse.
+
+![Accessibility](assets/images/lighthouseTest.jpg)
+
 ### **Deployment**
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
