@@ -1,99 +1,94 @@
 <!DOCTYPE html>
-<html>
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="Description" content="A Rock, Paper, Scissors Game" />
-      <link rel="stylesheet" href="assets/css/style.css" />
-      <link rel="icon" href="assets/favicon/favicon.ico" />
-      <title>Rock, Paper, Scissors Game</title>
-    </head>
-    <body>
-      <header>
-        <!-- The Logo -->
-        <h1>
-          <a href="index.html" aria-label="Reset the game"
-            >Rock Paper Scissors</a
-          >
-        </h1>
-      </header>
-      <!-- The button to enter your name and then start the game - Then serves as a rounds to win display in game -->
-      <main>
-        <div id="name-round-container">
-          <button id="enter-name-button">Enter Name To Begin</button>
-        </div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="A Rock, Paper, Scissors Game" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/favicon/favicon.ico" />
+    <title>Rock, Paper, Scissors Game</title>
+  </head>
+  <body>
+    <header>
+      <!-- The Logo -->
+      <h1>
+        <a href="index.html" aria-label="Reset the game">Rock Paper Scissors</a>
+      </h1>
+    </header>
+    <!-- The button to enter your name and then start the game - Then serves as a rounds to win display in game -->
+    <main>
+      <div id="name-round-container">
+        <button id="enter-name-button">Enter Name To Begin</button>
+      </div>
 
-        <!-- The player and computer scoreboard -->
-        <div id="score-board-container">
-          <div>
-            <span id="player-name" class="score-board">Player:</span>
-            <span id="player-score" class="score-board">0</span>
-          </div>
-          <div>
-            <span id="computer-score" class="score-board">0</span>
-            <span class="score-board">:Computer</span>
-          </div>
-        </div>
-        <!-- The upper display to show winner, draw or overall game winner results -->
-        <p id="upper-display">Upper display</p>
-
-        <!-- The central image display of the game that will contain the relevant game images-->
-        <div id="image-container">
-          <div>
-            <img
-              id="first-image"
-              src="assets/images/rock-image.jpg"
-              alt="Cartoon image of a rock"
-            />
-          </div>
-          <div>
-            <img
-              id="second-image"
-              src="assets/images/paper-image.jpg"
-              alt="Cartoon image of paper"
-            />
-          </div>
-          <div>
-            <img
-              id="third-image"
-              src="assets/images/scissors-image.jpg"
-              alt="Cartoon image of a scissors"
-            />
-          </div>
-        </div>
-        <!-- The lower display to show the computers choice and in-game messages -->
+      <!-- The player and computer scoreboard -->
+      <div id="score-board-container">
         <div>
-          <p id="lower-display">Lower display</p>
+          <span id="player-name" class="score-board">Player:</span>
+          <span id="player-score" class="score-board">0</span>
         </div>
-        <!-- The buttons for a player to make their choice of rock/paper/scissors -->
-        <div id="player-choice-container">
-          <button id="rock-button" class="navigation-buttons">Rock</button>
-          <button id="paper-button" class="navigation-buttons">Paper</button>
-          <button id="scissors-button" class="navigation-buttons">
-            Scissors
-          </button>
+        <div>
+          <span id="computer-score" class="score-board">0</span>
+          <span class="score-board">:Computer</span>
         </div>
-        <!-- Navigation buttons for game, only one will display at a time -->
-        <nav id="next-button-container">
-          <button id="player-turn-button" class="navigation-buttons">
-            Take Your Turn
-          </button>
-          <button id="computer-turn-button" class="navigation-buttons">
-            Get Computer Choice
-          </button>
-          <button id="try-again-button" class="navigation-buttons">
-            Try Again ?
-          </button>
-        </nav>
-      </main>
-      <footer>
-        <p>RULES:</p>
-        <p>Rock beats Scissors - Paper beats Rock - Scissors beats Paper</p>
-      </footer>
-      <script src="assets/js/script.js"></script>
-    </body>
-  </html>
+      </div>
+      <!-- The upper display to show winner, draw or overall game winner results -->
+      <p id="upper-display">Upper display</p>
+
+      <!-- The central image display of the game that will contain the relevant game images-->
+      <div id="image-container">
+        <div>
+          <img
+            id="first-image"
+            src="assets/images/rock-image.jpg"
+            alt="Cartoon image of a rock"
+          />
+        </div>
+        <div>
+          <img
+            id="second-image"
+            src="assets/images/paper-image.jpg"
+            alt="Cartoon image of paper"
+          />
+        </div>
+        <div>
+          <img
+            id="third-image"
+            src="assets/images/scissors-image.jpg"
+            alt="Cartoon image of a scissors"
+          />
+        </div>
+      </div>
+      <!-- The lower display to show the computers choice and in-game messages -->
+      <div>
+        <p id="lower-display">Lower display</p>
+      </div>
+      <!-- The buttons for a player to make their choice of rock/paper/scissors -->
+      <div id="player-choice-container">
+        <button id="rock-button" class="navigation-buttons">Rock</button>
+        <button id="paper-button" class="navigation-buttons">Paper</button>
+        <button id="scissors-button" class="navigation-buttons">
+          Scissors
+        </button>
+      </div>
+      <!-- Navigation buttons for game, only one will display at a time -->
+      <nav id="next-button-container">
+        <button id="player-turn-button" class="navigation-buttons">
+          Take Your Turn
+        </button>
+        <button id="computer-turn-button" class="navigation-buttons">
+          Get Computer Choice
+        </button>
+        <button id="try-again-button" class="navigation-buttons">
+          Try Again ?
+        </button>
+      </nav>
+    </main>
+    <footer>
+      <p>RULES:</p>
+      <p>Rock beats Scissors - Paper beats Rock - Scissors beats Paper</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
