@@ -28,20 +28,20 @@ First to a score of 3 wins the game.
 
 - **Enter name button**
 
-- The enter name button is the only button available upon game start and a name cannot be blank or longer than 10 characters.
-- When a user enters their name it serves as a rounds to win display in game.
+  - The enter name button is the only button available upon game start and a name cannot be blank or longer than 10 characters.
+  - When a user enters their name it serves as a rounds to win display in game.
 
 ![Enter name button](assets/images/EnterNameButtonPre.jpg) ![Rounds to win display](assets/images/EnterNameButtonPost.jpg)
 
 - **Scoreboard**
 
-- A scoreboard to keep track of the round scores.
+  - A scoreboard to keep track of the round scores.
 
 ![Scoreboard](assets/images/Scoreboard.jpg)
 
-**Upper and lower displays**
+- **Upper and lower displays**
 
-- There are upper and lower displays that will display information to the user, such as the round winner/draw in the upper, and what the computer chose in the lower.
+   - There are upper and lower displays that will display information to the user, such as the round winner/draw in the upper, and what the computer chose in the lower.
 
 ![Upper and lower displays](assets/images/UpperLowerDisplays.jpg)
 
@@ -68,53 +68,53 @@ First to a score of 3 wins the game.
 
 - **The Footer**
 
-- The footer displays the rules of the game.
+  - The footer displays the rules of the game.
 
 ![Footer](assets/images/Footer.jpg)
 
 
-### **Future features**
-- Improvements to the graphical elements(Animated/Moving images etc.)
-- Adding audio features to the game.
-- Adding an option for changing the number of rounds to win.
-- Adding another option to change names other than the logo.
+- ### **Future features**
+  - Improvements to the graphical elements(Animated/Moving images etc.)
+  - Adding audio features to the game.
+  - Adding an option for changing the number of rounds to win.
+  - Adding another option to change names other than the logo.
 
-### **Unfixed bugs**
-- None.
+- ### **Unfixed bugs**
+  - None.
 
-### **Target Audiences**
+- ### **Target Audiences**
 
-- From kids to grannies and grandads.
+  - From kids to grannies and grandads.
 
-### **User Stories**
+- ### **User Stories**
 
-- As a user, I want to play the game easily and intuitively.
-- As a user, I want to be entertained.
-- As a user, I want to feel a good vibe.
-- As a user, I want the possibility to win.
+  - As a user, I want to play the game easily and intuitively.
+  - As a user, I want to be entertained.
+  - As a user, I want to feel a good vibe.
+  - As a user, I want the possibility to win.
 
-### **Design**
+- ### **Design**
 
-- I drew some images on paper for the layout and then implemented those ideas.
-- I chose a nice bright colourful vibe to the game.
-- I chose a uniformed look and simple interface.
-- I chose to have various elements display or hide depending on the requirements and I used flexbox for a nice uniformed dynamic look.
-- Below is a look at all of the elements the game contains, excluding all of the images.
+  - I drew some images on paper for the layout and then implemented those ideas.
+  - I chose a nice bright colourful vibe to the game.
+  - I chose a uniformed look and simple interface.
+  - I chose to have various elements display or hide depending on the requirements and I used flexbox for a nice uniformed dynamic look.
+  - Below is a look at all of the elements the game contains, excluding all of the images.
 
 ![All game elements](assets/images/AllElements.jpg)
 
-### **Testing**
+- ### **Testing**
 
-- I tested that the site functions correctly on Firefox, Chrome, and Edge.
+  - I tested that the site functions correctly on Firefox, Chrome, and Edge.
 
-- I tested that the project is reponsive on all devices using dev-tools.
+  - I tested that the project is reponsive on all devices using dev-tools.
 
-- I tested that all of the navigation and game features perform as intended.
+  - I tested that all of the navigation and game features perform as intended.
 
-### **Validator Testing**
+- ### **Validator Testing**
 
-- HTML
-  - No errors were found when passed through the W3C Markup Validation Service.
+ - HTML
+   - No errors were found when passed through the W3C Markup Validation Service.
 
 ![HTML Validation](assets/images/htmlValidation.jpg)
 
@@ -130,25 +130,25 @@ First to a score of 3 wins the game.
 
 - Performance and Accessibility
 
-- I got the following scores in lighthouse.
+  - I got the following scores in lighthouse.
 
 ![Accessibility](assets/images/lighthouseTest.jpg)
 
-### **Deployment**
+- ### **Deployment**
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-- In the GitHub repository, navigate to the Settings tab.
-- From the options select Pages.
-- Choose a branch, main in this case.
-- Select the root folder.
-- Click save.
+  - The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab.
+  - From the options select Pages.
+  - Choose a branch, main in this case.
+  - Select the root folder.
+  - Click save.
 
-The live link can be found here -
+The live link can be found here - https://d-mona.github.io/Rock-Paper-Scissors-Game/
 
-### **Media**
+- ### **Media**
 
-- The images in the game were taken from https://www.freepik.com/.
-- References to their authors are below.
+  - The images in the game were taken from https://www.freepik.com/.
+  - References to their authors are below.
 
 <a href="https://www.freepik.com/free-vector/pile-stones-white-background_20498797.htm#query=cartoon%20rock&position=3&from_view=search&track=ais">Image by brgfx</a> on Freepik
 
@@ -166,11 +166,11 @@ The live link can be found here -
 
 <a href="https://www.freepik.com/free-vector/katana-sword-cartoon-vector-icon-illustration-ninja-object-icon-concept-isolated-flat-vector_57146113.htm#query=2%20swords%20cartoon&position=12&from_view=search&track=ais">Image by catalyststuff</a> on Freepik
 
-### **Tech**
+- ### **Tech**
 
-- HTML
-- CSS & Flexbox
-- Javascript
+  - HTML
+  - CSS & Flexbox
+  - Javascript
 
-- I used VSCode for the project creation, with the Prettier extension for the formatting.
-- I used https://imageresizer.com/ for the resizing of the images.
+  - I used VSCode for the project creation, with the Prettier extension for the formatting.
+  - I used https://imageresizer.com/ for the resizing of the images.
