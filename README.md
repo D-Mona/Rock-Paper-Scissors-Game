@@ -111,6 +111,17 @@ First to a score of 3 wins the game.
 
 - I tested that all of the navigation and game features perform as intended.
 
+### **Deployment**
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab.
+- From the options select Pages.
+- Choose a branch, main in this case.
+- Select the root folder.
+- Click save.
+
+The live link can be found here -
+
 ### **Media**
 
 - The images in the game were taken from https://www.freepik.com/.
