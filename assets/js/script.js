@@ -19,3 +19,9 @@ const enterNameBtn = document.getElementById("enter-name-button");
 const playerChoiceContainer = document.getElementById(
   "player-choice-container"
 );
+
+// Scoreboard
+const playerName = document.getElementById("player-name");
+const playerScore = document.getElementById("player-score");
+const computerScore = document.getElementById("computer-score");
+
